@@ -1,0 +1,28 @@
+# --- Adatok: nem publikusak és túl nagyok a GitHubhoz ---
+01_Forras/*
+!01_Forras/README.md
+02_Staging/
+06_Kimenet/
+*.xlsx
+*.csv
+*.parquet
+
+# --- Power BI: a .pbix a teljes adatmodellt (az adatokat is) tartalmazza; a repóban a .pbit sablon van ---
+*.pbix
+
+# --- Prezentáció: a repóban a PDF-változat van ---
+*.pptx
+
+# --- Office ideiglenes fájlok ---
+~$*
+
+# --- Python és Jupyter ---
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Operációs rendszer ---
+Thumbs.db
+desktop.ini
+.DS_Store

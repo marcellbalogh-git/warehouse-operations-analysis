@@ -1,0 +1,5 @@
+# Tested with Python 3.14.0
+pandas==3.0.6
+pyarrow==25.0.1
+python-calamine    # only for D01_excel_to_csv.py (reading the Excel source)
+ipykernel          # to run the notebook in VS Code / Jupyter
